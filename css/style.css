@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Commn*/
+.centratura{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.centratura h1{
+    text-align: center;
+}
+
+h1.text-yellow{
+    color: yellow;
+}
+
+h1.text-green{
+    color: green;
+}
+
+
+/*Fine commn*/
+
+/*Nav*/
+nav li{
+    display: inline;
+    padding-right: 20px;
+}
+
+nav{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+}
+
+nav li a{
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 50% 50%;
+    padding: 5px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav li a:hover{
+    box-shadow: 4px 4px 0px 0px black;
+}
+
+
+
+
+
+/*Fine nav*/
+
+/*Section*/
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/*Fine section*/
